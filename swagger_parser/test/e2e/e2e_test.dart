@@ -429,6 +429,7 @@ void main() {
           schemaPath: schemaPath,
           jsonSerializer: JsonSerializer.freezed,
           putClientsInFolder: true,
+          fallbackClient: 'test',
         ),
         schemaFileName: 'openapi.yaml',
       );

@@ -5,11 +5,11 @@
 import 'package:dio/dio.dart';
 import 'package:retrofit/retrofit.dart';
 
-part 'default_client.g.dart';
+part 'test_client.g.dart';
 
 @RestApi()
-abstract class DefaultClient {
-  factory DefaultClient(Dio dio, {String? baseUrl}) = _DefaultClient;
+abstract class TestClient {
+  factory TestClient(Dio dio, {String? baseUrl}) = _TestClient;
 
   @GET('/api/v1/no-tags/')
   Future<void> apiV1CategoryList();

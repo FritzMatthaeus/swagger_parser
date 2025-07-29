@@ -4,6 +4,6 @@
 
 // Clients
 export 'clients/client_client.dart';
-export 'clients/default_client.dart';
+export 'clients/test_client.dart';
 // Root client
 export 'rest_client.dart';
